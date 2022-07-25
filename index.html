@@ -9,99 +9,105 @@
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <title>崔东旭的主页|自强不息，独树一帜</title>
-<!-- MathJax -->
+<!-- MathJax --> 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
 	  TeX: { equationNumbers: { autoNumber: "AMS" } }
 });
-</script>
+</script> 
 <!-- End MathJax -->
 </head>
 <body>
 <div id="main-container">
-<div id="header-container">
-<div id="header">
-<div id="header-icon-text-container">
-<div id="header-icon-container" >
-<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+  <div id="header-container">
+    <div id="header">
+      <div id="header-icon-text-container">
+        <div id="header-icon-container" > <a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a> </div>
+        <div id="header-text-container"> <a href="index.html">崔东旭|自强不息，独树一帜</a> </div>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+    </div>
+  </div>
+  <div id="layout">
+    <div id="layout-menu-container">
+      <div id="layout-menu">
+        <div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+        <div class="menu-item"><a href="index.html">关于</a></div>
+        <div class="menu-item"><a href="/en/index.html">English Version</a></div>
+        <div class="menu-category">快速链接</div>
+        <div class="menu-item"><a href="index.html" class="current">个人信息</a></div>
+        <div class="menu-item"><a href="#">课程笔记</a></div>
+        <div class="menu-item"><a href="#">研究论文</a></div>
+        <div class="menu-item"><a href="#">Blog</a></div>
+        <div class="menu-category">其他杂项</div>
+        <div class="menu-item"><a href="#">域名邮箱申请（非公开）</a></div>
+        <div class="menu-item"><a href="#">联系方式</a></div>
+        <div class="menu-item"><a href="#">About&nbsp;LaTeX</a></div>
+        <div class="menu-category">资料下载</div>
+        <div class="menu-item"><a href="#">讲义</div>
+        <div class="menu-item"><a href="#">笔记</a></div>
+        <div class="menu-category">常用链接</div>
+        <div class="menu-item"><a href="https://www.nature.com">Nature</a></div>
+        <div class="menu-item"><a href="https://www.science.org">Science</a></div>
+        <div class="menu-item"><a href="https://www.pku.edu.cn">北京大学</a></div>
+        <div class="menu-item"><a href="https://www.ucas.ac.cn">中国科学院大学</a></div>
+        <div class="menu-item"><a href="https://www.lzu.edu.cn">兰州大学</a></div>
+        <div class="menu-category">常用镜像源</div>
+        <div class="menu-item"><a href="https://mirrors.tuna.tsinghua.edu.cn">清华大学开源软件镜像站<br>
+          |Tsinghua Open Source Mirror</a></div>
+        <div class="menu-item"><a href="https://mirrors.sdwu.edu.cn">山东女子学院开源软件镜像站</a></div>
+        <div class="menu-item"><a href="https://mirror.lzu.edu.cn">兰州大学开源社区镜像站</a></div>
+      </div>
+      <!-- <div id="layout-menu"> --> 
+    </div>
+    <!-- <div id="layout-menu-container"> -->
+    <div id="layout-content-container">
+      <div id="layout-content">
+        <div id="text-img-container">
+          <div id="img-container"> <img src="./images/banner2.png" alt="profile pic" width="100%" /></div>
+          <div id="text-container"></div>
+        </div>
+        <div id="text-img-container">
+          <div id="img-container"> <img src="./images/profile.png" alt="profile pic" width="200px" height="200px" /></div>
+          <div id="text-container">
+            <h1>崔东旭</h1>
+            <h3><a href="https://www.luas.edu.cn" target=&ldquo;blank&rdquo;>LUAS</a>化学本科<br/>
+            </h3>
+            <p> 我是兰州文理学院的一名学生，目前学习化学与生物学专业。</p>
+          </div>
+        </div>
+        <h2>迟到指南</h2>
+        <p>迟到指南采用LaTeX编写，提供源代码下载。</p>
+        <h4>内容摘要</h4>
+        <p>同学们在高三时期经常会熬夜学习，而熬夜学习的必然结果是早晨起不来从而导致早晨迟到。迟到者通常会被以李某为首的学生会所围剿，而这显然是广大劳苦普通学生所不愿遇到的。本文作者拥有多年的迟到经验，了解学生会的种种侦察手段以及如何巧妙化解这些手段。《礼记》有言：“凡事豫则立，不豫则废。”只有提前做好心理建设，才能打赢这场没有硝烟的战争！因此，我将从以下几个方面教大家如何请假以及如何在迟到时应对学生会的围剿……</p>
+        <h4>下载链接</h4>
+        <p><a href="https://github.com/BioWikiProject/Late_Guide.git">Https</a></p>
+        <p>GitHub CLI:<tt>gh repo clone BioWikiProject/Late_Guide</tt></p>
+        <p>SSH:<tt>git@github.com:BioWikiProject/Late_Guide.git</tt></p>
+        <h2>近期科研新闻动态</h2>
+        <p><a href="https://www.nature.com/articles/s41467-022-31844-w.pdf">PDF文档下载</a></p>
+        <h3>Natural variation of <em>DROT1</em> confers drought adaptation in upland rice</h3>
+        <p>Upland rice is a distinct ecotype that grows in aerobic environments and tolerates drought stress. However, the genetic basis of its drought resistance is unclear. Here, using an integrative approach combining a genome-wide association study with analyses of introgression lines and transcriptomic profiles, we identify a gene, DROUGHT1 (<em>DROT1</em>), encoding a COBRA-like protein that confers drought resistance in rice. <em>DROT1</em> is specifically expressed in vascular bundles and is directly repressed by ERF3 and activated by <em>ERF71</em>, both drought-responsive transcription factors. <em>DROT1</em> improves drought resistance by adjusting cell wall structure by increasing cellulose content and maintaining cellulose crystallinity. A C-to-T single-nucleotide variation in the promoter increases <em>DROT1</em> expression and drought resistance in upland rice. The potential elite haplotype of DROT1 in upland rice could originate in wild rice (O. rufipogon) and may be beneficial for breeding upland rice varieties.</p>
+        <br>
+        <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-022-31844-w/MediaObjects/41467_2022_31844_Fig1_HTML.png?as=webp" alt="" width="100%"/> <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-022-31844-w/MediaObjects/41467_2022_31844_Fig2_HTML.png?as=webp" alt="" width="100%"/> </div>
+      <!-- <div id="layout-content"> -->
+      <div id="footer-container">
+        <div id="footer">
+          <div id="footer-text"> Last edited  on July 25<sup>nd</sup>2022 10:51 (Time Zone: PDT). </br>
+            Powered by <a href="https://www.latex-project.org/" target="blank">\LaTeX</a>. </div>
+          <!-- <div id="footer-text"> --> 
+        </div>
+        <!-- <div id="footer"> --> 
+      </div>
+      <!-- <div id="footer-container"> --> 
+    </div>
+    <!-- <div id="layout-content-container"> --> 
+  </div>
+  <!--- <div id="layout"> ---> 
 </div>
-<div id="header-text-container">
-<a href="index.html">崔东旭|自强不息，独树一帜</a>
-</div>
-</div>
-<div id="main">
-<button class="openbtn" onclick="openNav()">☰</button>
-</div>
-</div>
-</div>
-<div id="layout">
-<div id="layout-menu-container">
-<div id="layout-menu">
-<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
-	<div class="menu-item"><a href="index.html">关于</a></div>
-	<div class="menu-item"><a href="/en/index.html">English Version</a></div>
-	<div class="menu-category">快速链接</div>
-		<div class="menu-item"><a href="index.html" class="current">个人信息</a></div>
-		<div class="menu-item"><a href="#">课程笔记</a></div>
-		<div class="menu-item"><a href="#">研究论文</a></div>
-		<div class="menu-item"><a href="#">Blog</a></div>
-	<div class="menu-category">其他杂项</div>
-		<div class="menu-item"><a href="#">域名邮箱申请（非公开）</a></div>
-		<div class="menu-item"><a href="#">联系方式</a></div>
-		<div class="menu-item"><a href="#">About&nbsp;LaTeX</a></div>
-	<div class="menu-category">资料下载</div>
-		<div class="menu-item"><a href="#">讲义</div>
-		<div class="menu-item"><a href="#">笔记</a></div>
-	<div class="menu-category">常用链接</div>
-		<div class="menu-item"><a href="https://www.nature.com">Nature</a></div>
-		<div class="menu-item"><a href="https://www.science.org">Science</a></div>
-		<div class="menu-item"><a href="https://www.pku.edu.cn">北京大学</a></div>
-		<div class="menu-item"><a href="https://www.ucas.ac.cn">中国科学院大学</a></div>
-		<div class="menu-item"><a href="https://www.lzu.edu.cn">兰州大学</a></div>
-	<div class="menu-category">常用镜像源</div>
-		<div class="menu-item"><a href="https://mirrors.tuna.tsinghua.edu.cn">清华大学开源软件镜像站<br>|Tsinghua Open Source Mirror</a></div>
-		<div class="menu-item"><a href="https://mirrors.sdwu.edu.cn">山东女子学院开源软件镜像站</a></div>
-		<div class="menu-item"><a href="https://mirror.lzu.edu.cn">兰州大学开源社区镜像站</a></div>
-</div> <!-- <div id="layout-menu"> -->
-</div> <!-- <div id="layout-menu-container"> -->
-<div id="layout-content-container">
-<div id="layout-content">
-<div id="text-img-container"><div id="img-container">
-<img src="./images/banner2.png" alt="profile pic" width="100%" /></div>
-<div id="text-container"></div></div>
-<div id="text-img-container"><div id="img-container">
-<img src="./images/profile.png" alt="profile pic" width="200px" height="200px" /></div>
-<div id="text-container"><h1>崔东旭</h1>
-<h3><a href="https://www.luas.edu.cn" target=&ldquo;blank&rdquo;>LUAS</a>化学本科<br/></h3>
-<p> 我是兰州文理学院的一名学生，目前学习化学与生物学专业。</p>
-</div></div>
-<h2>迟到指南</h2>
-<p>迟到指南采用LaTeX编写，提供源代码下载。</p>
-	<h4>内容摘要</h4>
-	<p>同学们在高三时期经常会熬夜学习，而熬夜学习的必然结果是早晨起不来从而导致早晨迟到。迟到者通常会被以李某为首的学生会所围剿，而这显然是广大劳苦普通学生所不愿遇到的。本文作者拥有多年的迟到经验，了解学生会的种种侦察手段以及如何巧妙化解这些手段。《礼记》有言：“凡事豫则立，不豫则废。”只有提前做好心理建设，才能打赢这场没有硝烟的战争！因此，我将从以下几个方面教大家如何请假以及如何在迟到时应对学生会的围剿……</p>
-	<h4>下载链接</h4>
-	<p><a href="https://github.com/BioWikiProject/Late_Guide.git">Https</a></p>
-	<p>GitHub CLI:<tt>gh repo clone BioWikiProject/Late_Guide</tt></p>
-	<p>SSH:<tt>git@github.com:BioWikiProject/Late_Guide.git</tt></p>
-<h2>近期科研新闻动态</h2>
-	<p><a href="https://www.nature.com/articles/s41467-022-31844-w.pdf">PDF文档下载</a></p>
-	<h3>Natural variation of <em>DROT1</em> confers drought adaptation in upland rice</h3>
-		
-		<p>Upland rice is a distinct ecotype that grows in aerobic environments and tolerates drought stress. However, the genetic basis of its drought resistance is unclear. Here, using an integrative approach combining a genome-wide association study with analyses of introgression lines and transcriptomic profiles, we identify a gene, DROUGHT1 (<em>DROT1</em>), encoding a COBRA-like protein that confers drought resistance in rice. <em>DROT1</em> is specifically expressed in vascular bundles and is directly repressed by ERF3 and activated by <em>ERF71</em>, both drought-responsive transcription factors. <em>DROT1</em> improves drought resistance by adjusting cell wall structure by increasing cellulose content and maintaining cellulose crystallinity. A C-to-T single-nucleotide variation in the promoter increases <em>DROT1</em> expression and drought resistance in upland rice. The potential elite haplotype of DROT1 in upland rice could originate in wild rice (O. rufipogon) and may be beneficial for breeding upland rice varieties.</p>
-	  <br><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-022-31844-w/MediaObjects/41467_2022_31844_Fig1_HTML.png?as=webp" alt=""/> 
-	<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-022-31844-w/MediaObjects/41467_2022_31844_Fig2_HTML.png?as=webp" alt=""/> 
-</div> <!-- <div id="layout-content"> -->
-<div id="footer-container">
-<div id="footer">
-<div id="footer-text">
-Last edited  on July 25<sup>nd</sup>2022 10:51 (Time Zone: PDT). </br>
-Powered by <a href="https://www.latex-project.org/" target="blank">\LaTeX</a>.
-</div> <!-- <div id="footer-text"> -->
-</div> <!-- <div id="footer"> -->
-</div> <!-- <div id="footer-container"> -->
-</div> <!-- <div id="layout-content-container"> -->
-</div> <!--- <div id="layout"> --->
-</div> <!--- <div id="main-container"> --->
+<!--- <div id="main-container"> ---> 
 <script>
 function openNav() {
     if (window.innerWidth <= 1200) {
