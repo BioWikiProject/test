@@ -1,0 +1,36 @@
+body {
+    padding-top: 5rem;
+}
+
+address {
+    font-size: larger;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+.nav-link {
+    font-size: x-large;
+}
+
+.welcome {
+    text-align: left;
+}
+
+.footer {
+    text-align: right;
+    font-size: x-small;
+}
+
+.jumbotron-like {
+    padding-top: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2rem;
+}
+
+.paper-list {
+    text-align: justify;
+    font-size: larger;
+}
